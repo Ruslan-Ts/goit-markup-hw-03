@@ -44,7 +44,8 @@ ol {
 }
 
 .section {
-padding: 94px 0;    
+padding-top: 94px;
+padding-bottom: 94px;  
 }
 
 body {
@@ -63,12 +64,17 @@ img {
     text-decoration: none;
 }
 /* -----------------------------HEADER-------------------------------- */
+
 .header {
+    
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-flex {
     display: flex;
     align-items: center;
-    height: 80px;
-    border-bottom: 1px solid #ECECEC;
     justify-content: space-between;
+    height: 80px;
 }
 
 .logo {
@@ -135,6 +141,7 @@ color: var(--accent-color);
 
 .hero {
     background-color: var(--second-bgcolor);
+    padding: 200px 0;
 }
 
 .hero-text {
@@ -148,7 +155,6 @@ color: var(--accent-color);
     max-width: 696px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 106px;
     margin-bottom: 30px;
    
    
@@ -161,8 +167,8 @@ color: var(--accent-color);
     font-size: 16px;
     line-height: 1.88;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;    
     color: var(--text-light);  
     background-color: var(--accent-color); 
@@ -172,7 +178,6 @@ color: var(--accent-color);
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-bottom: 106px;
 }
 
 /* -----------------------------BENEFITS-------------------------------- */
@@ -287,7 +292,7 @@ border-radius: 0px 0px 4px 4px;
 
 .footer {
     background-color: var(--second-bgcolor);
-    padding: 60px;
+    padding: 60px 0;
 }
 
 
@@ -360,14 +365,14 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .projects-item {
-    border: 1px solid #EEEEEE;
     /* flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px; */
+    
 }
 
 .projects-img {
-    margin-bottom: 20px;
+   
 }
 
 .projects-title {
@@ -377,8 +382,6 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.06em;
     color: var(--text-dark);
     
-    margin-bottom: 4px;
-    margin-left: 24px;
 }
 
 .projects-sign {
@@ -387,6 +390,9 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.67;
     letter-spacing: 0.03em;
     color: var(--text-second-color);
-    margin-bottom: 20px;
-    margin-left: 24px;
+}
+
+.projects-title-sign {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
