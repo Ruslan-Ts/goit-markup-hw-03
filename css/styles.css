@@ -213,6 +213,10 @@ color: var(--accent-color);
 
 /* -----------------------------ACTIVITY-------------------------------- */
 
+.activity {
+    padding-bottom: 94px;
+}
+
 .activity-title {
     font-weight: 700;
     font-size: 36px;
@@ -221,6 +225,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;    
     color: var(--text-dark);
     margin-bottom: 50px;
+   
 }
 
 .activity-list {
@@ -232,6 +237,7 @@ color: var(--accent-color);
 
 .team {
 background-color: #F5F4FA;
+padding-top: -94px;
 }
 
 
